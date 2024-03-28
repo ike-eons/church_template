@@ -1,0 +1,15 @@
+@media (max-width: 991.98px) {
+    .offcanvas-body {
+    
+     & ul{
+       
+        text-align: center;
+        & li{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.5rem;
+        }  
+   }
+   
+ }
+}

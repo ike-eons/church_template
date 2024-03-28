@@ -1,0 +1,15 @@
+@forward "../components/image-composition";
+
+.welcome-section {
+	margin: 5rem 0 2rem 0;
+	@media (max-width: 991.98px) {
+		&__message {
+			// margin-top: 20rem;
+		}
+	}
+
+	& .welcome-title {
+		font-size: 40px;
+		font-weight: 600;
+	}
+}

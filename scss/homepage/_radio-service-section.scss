@@ -1,0 +1,29 @@
+.radio-service {
+	background-color: #fff;
+	color: rgb(29, 29, 29);
+	padding: 4rem;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+	}
+	&__day {
+		font-weight: 800;
+		font-size: 40px;
+		letter-spacing: 2px;
+
+		&-title {
+			color: rgb(255, 71, 71);
+		}
+	}
+
+	& .fm {
+		font-weight: 600;
+		letter-spacing: 1.2px;
+	}
+
+	& .time {
+		letter-spacing: 1.3px;
+		font-weight: 400;
+	}
+}

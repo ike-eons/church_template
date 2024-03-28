@@ -1,0 +1,19 @@
+{
+  "name": "twm_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map --build scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.71.1",
+    "swiper": "^11.0.7"
+  }
+}

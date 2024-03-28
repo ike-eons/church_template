@@ -1,0 +1,20 @@
+.cta{
+    display: block;
+    background-color: #11472c;
+   
+    margin-right: 80px;
+ 
+    & a{
+        padding: 13px 40px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 100ms ease-in;
+    }
+}
+
+.btn-cta{
+    padding: 13px 40px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 100ms ease-in;
+}

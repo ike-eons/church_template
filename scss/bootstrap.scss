@@ -1,0 +1,38 @@
+//primary color
+$primary: #4ec3a0;
+// $secondary: #fb2056;
+
+$btn-close-width: 1.5em;
+$btn-close-padding-x: .5em;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+$headings-margin-bottom: $spacer * 1;
+$line-height-base: 1.7;
+
+$navbar-dark-color: #fff;
+
+$enable-negative-margins: true;
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import 'variables';
+body{
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}

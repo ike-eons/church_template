@@ -1,0 +1,41 @@
+// Pagination & Custom Navigation
+.header {
+	.swiper-pagination {
+		margin: 1rem 0;
+	}
+	.swiper-pagination-bullet {
+		background: white;
+
+		opacity: 0.5;
+	}
+
+	.swiper-pagination-bullet-active {
+		background: #4b4129;
+		outline-offset: 5px;
+	}
+
+	.swiper-custom-nav {
+		// background-color: red;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		z-index: 10;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 4rem;
+		width: 100%;
+
+		& svg {
+			cursor: pointer;
+
+			opacity: 0.5;
+			transition: all 0.3s ease-in-out;
+
+			&:hover,
+			:active {
+				opacity: 1;
+			}
+		}
+	}
+}

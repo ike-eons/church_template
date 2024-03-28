@@ -1,0 +1,81 @@
+.image-composition{
+    position: relative;
+   
+    &__box{
+        position: absolute;
+        width: 55%;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+        border-radius: 2px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+        transition: all .5s ease-in-out;
+
+        @media (max-width: 991.98px){
+            
+            position: absolute;
+            width: 100%;
+            box-shadow: 0 1.5rem 3rem rgba(black, .2);
+        }
+      
+        & h2{
+            color: white;
+            position: absolute;
+            bottom: 0;
+            font-size: 20px;
+            background-color: rgba(0,0,0,0.8);
+            padding: 5px 20px;
+            opacity: 0;
+            transition: all .5s ease-in-out;
+
+            @media(max-width:991.98px){
+                font-size: 16px;
+            }
+        }
+
+        &-1{
+            left: 0;
+            top: -2rem;
+
+            @media (max-width: 991.98px){
+                left: -4rem;
+                top: -4rem;
+            }
+        }
+        &-2{
+            right: 0;
+            top: 2rem;;
+            @media (max-width: 991.98px){
+                right: -4rem;
+                top: -3rem;
+            }
+         }
+        &-3{
+            left: 20%;
+            top: 8rem;
+            @media (max-width: 991.98px){
+                left: 0vw;
+                top: 0rem;
+            }
+
+        }
+
+        &:hover{
+            transform: scale(1.1) translateY(1rem);
+            box-shadow: 0 2.5rem 4rem rgba(black, .5);
+            z-index: 20;
+            h2{
+                opacity: 1;
+            }
+            
+        }
+        
+    }
+
+    &:hover &__box:not(:hover) {
+        transform: scale(.95);
+    }
+
+
+}
