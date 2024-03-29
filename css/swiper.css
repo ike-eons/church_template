@@ -65,6 +65,18 @@
   font-size: 24px;
   z-index: 100;
 }
+.header .swiper-slide .text-overlay .title-text {
+  position: relative;
+}
+.header .swiper-slide .text-overlay .title-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  width: 10%; /* Make the underline span the entire width of the parent */
+  height: 2px; /* Set the height of the underline */
+  background-color: red; /* Set the color of the underline */
+}
 
 .cardSlider .swiper-container {
   width: 100%;
